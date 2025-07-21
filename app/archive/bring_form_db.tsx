@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { supabase } from '../../lib/dbconnect/route';
+import { supabase } from '../../lib/supabase/client';
 
 export default function GalleryUrl() {
   const [imageUrls, setImageUrls] = useState<string[]>([]);
