@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
-import { supabase } from "../../../lib/dbconnect/route";// adjust your path if needed
+import { supabase } from "../../../lib/supabase/client";// adjust your path if needed
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import { supabase } from "../../lib/dbconnect/route";
+import { supabase } from "../../lib/supabase/client";
 
 export default function SoccerRegistrationForm() {
   const [loading, setLoading] = useState(false);

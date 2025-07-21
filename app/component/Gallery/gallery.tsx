@@ -2,7 +2,7 @@
 import { ThreeDMarquee } from "@/components/ui/3d-marquee";
 
 import { useEffect, useState } from 'react';
-import { supabase } from '../../../lib/dbconnect/route';
+import { supabase } from "../../../lib/supabase/client";
 export default function Gallery() {
   // const images = [
   //     "https://assets.aceternity.com/animated-modal.png",

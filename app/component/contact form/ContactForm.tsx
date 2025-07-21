@@ -5,7 +5,7 @@ import { Input } from "../../../components/ui/input";
 import { cn } from "@/lib/utils";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
-import { supabase } from "../../../lib/dbconnect/route";
+import { supabase } from "../../../lib/supabase/client";
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
